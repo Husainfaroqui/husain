@@ -1,0 +1,71 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family:Arial;
+  transition:0.3s;
+}
+
+/* Navbar */
+.nav{
+  display:flex;
+  justify-content:space-between;
+  padding:10px;
+  background:black;
+  color:white;
+}
+.nav a{
+  color:white;
+  margin:0 10px;
+  text-decoration:none;
+}
+
+/* Hero */
+.hero{
+  height:80vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+/* Skills */
+.skills{
+  padding:20px;
+  text-align:center;
+}
+.box{
+  display:flex;
+  justify-content:center;
+  gap:10px;
+}
+.box div{
+  padding:10px;
+  background:#eee;
+}
+
+/* Projects */
+.projects{
+  display:flex;
+  gap:10px;
+  padding:20px;
+}
+.card{
+  padding:20px;
+  border:1px solid #ccc;
+}
+
+/* Button */
+button{
+  padding:10px;
+  display: block;
+  margin: auto;
+  background:red;
+  color:white;
+  border:none;
+}
+
+/* Dark mode */
+.dark{
+  background:#111;
+  color:white;
+}
