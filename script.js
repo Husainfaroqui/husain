@@ -1,21 +1,26 @@
 function showMessage(){
-  alert("Hello Husain");
+  alert("whassap Buddys");
 }
-
 function toggleMode(){
   document.body.classList.toggle("dark");
 }
 
-/* typing effect */
-let text = "Hi, I'm Husain";
-let i = 0;
+const text = "Assalmualikum,  pyare islamic bhai";
 
-function typing(){
-  if(i < text.length){
-    document.getElementById("typing").innerHTML += text.charAt(i);
-    i++;
-    setTimeout(typing, 80);
+let index = 0;
+
+function typeEffect(){
+
+  if(index < text.length){
+
+    document.getElementById("typing").innerHTML += text.charAt(index);
+
+    index++;
+
+    setTimeout(typeEffect,100);
   }
 }
 
-typing();
+typeEffect();
+
+
